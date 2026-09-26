@@ -178,8 +178,11 @@ Clic droit sur le projet → **Propriétés**. ⚠️ Bien vérifier en haut de 
    - Dépendances supplémentaires → ajouter (en plus des valeurs déjà présentes) :
 ```
      sfml-graphics.lib
+     sfml-graphics-d.lib
      sfml-window.lib
+     sfml-window-d.lib
      sfml-system.lib
+     sfml-system-d.lib
 ```
      *(en Debug, on met souvent les versions `-d`, ex: `sfml-graphics-d.lib`)*
 4. **Copier les `.dll`** correspondants (dossier `bin` de SFML) dans le même dossier que votre `.exe` compilé (généralement `x64/Debug/` ou `x64/Release/`)
